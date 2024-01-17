@@ -847,14 +847,14 @@ section {
   padding-bottom: 130px;
 }
 
-.contact .info {
+.contact .row {
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .info i {
+.contact .row i {
   font-size: 20px;
   color: #149ddd;
   float: left;
@@ -868,7 +868,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+.contact .row h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
@@ -876,7 +876,7 @@ section {
   color: #050d18;
 }
 
-.contact .info p {
+.contact .row p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -911,9 +911,9 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .row .email:hover i,
+.contact .row .address:hover i,
+.contact .row .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
